@@ -1,0 +1,252 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	height: 0px;
+	color: rgb(50,50,50);
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	font-weight: 400;
+}
+
+#Logo {
+	width: 200px;
+	height: 54px;
+	float: left;
+	margin: 0px 0px 16px 0px;
+	cursor: pointer;
+}
+
+#Dash {
+	position: fixed;
+	display: inline-block;
+	top: 0px;
+	width: 100%;
+	text-align: right;
+	height: 70px;
+	background-color: white;
+}
+
+.Cells {
+	display: inline-block;
+	overflow-x: hidden;
+	height: 100%;
+	margin: 0px 6px;
+	padding: 0px 4px 9.5px 4px;
+	vertical-align: top;
+	line-height: 60px;
+	cursor: pointer;
+}
+
+.Cells div {
+	position: relative;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: rgb(220, 220, 220);
+	vertical-align: top;
+	margin: 18px 6px 0px 0px;
+	border: 4px solid rgb(0,153,255);
+}
+
+.Cells input {
+	width: 40px;
+	font-size: 18px;
+	background-color: rgb(240,240,240);
+	border: 2px solid rgb(210,210,210);
+	margin-right: 10px;
+	border-radius: 4px;
+}
+
+.Cells input::-moz-placeholder {
+	font-size: 12px;
+	color: rgb(120,120,120);
+}
+
+.Cells span {
+	font-size: large;
+}
+
+#Note {
+	position: absolute;
+	display: inline-block;
+	font-size: 12px;
+	color: rgb(140,140,140);
+	bottom: 2px;
+	right: 10px;
+
+}
+
+#Generate {
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	border-radius: 4px;
+	padding: 12px 24px;
+	font-size: large;
+	color: white;
+	background-color: rgb(26, 163, 255);
+	margin: 7px 12px 17px 12px;
+}
+
+#Home {
+	width: 80%;
+	margin: 160px 10% 0px 10%;
+	text-align: center;
+}
+
+#Home h1 {
+    font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	margin: 0px 0px 18px 0px;
+	font-size: 64px;
+}
+
+#Home p {
+	font-size: 20px;
+	padding: 0px 16px;
+}
+
+#Create {
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	border-radius: 24px;
+	padding: 12px 24px;
+	font-size: 16px;
+	color: white;
+	margin: 0px 4px;
+	background-color: rgb(26, 163, 255);
+}
+
+#Learn {
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	border-radius: 24px;
+	padding: 11px 24px;
+	font-size: 16px;
+	margin: 0px 4px;
+	color: rgb(26, 163, 255);
+	border: 1px solid rgb(26, 163, 255);
+}
+
+#Text {
+	display: none;
+	width: 60%;
+	overflow-y: auto;
+	margin: 90px 20% 0px 20%;
+	text-align: left;
+}
+
+b {
+	color: rgb(26,140,255);
+}
+
+strong {
+	color: rgb(30,30,30);
+	font-weight: 200;
+}
+
+.Strech {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+
+#About {
+	width: 80%;
+	margin: 120px 10% 0px 10%;
+	text-align: left;
+}
+
+#About h2 {
+	color: rgb(50,50,50);
+	font-weight: 300;
+	margin: 10px 0px 5px 0px;
+	font-size: xx-large;
+}
+
+#About p {
+	color: rgb(40,40,40);
+	font-size: larger;
+	font-weight: 300;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	#Logo {
+		width: 100px;
+		height: 27px;
+		margin: 0px;
+	}
+	#Dash {
+		height: 70px;
+	}
+	.Cells {
+		padding: 0px;
+		margin: 0px;
+		height: 24px;
+		line-height: 19px;
+	}
+	.Cells input {
+		font-size: 12px;
+		margin: 0px 1px 0px 0px;
+		width: 54px;
+	}
+	.Cells span {
+		font-size: smaller;
+		margin-right: 3px;
+	}
+	.Cells div {
+		margin: 2px;
+		width: 8px;
+		height: 8px;
+	}
+	.Strech {
+		width: 100%;
+		padding: 2px 1px 0px 1px;
+		text-align: left;
+	}
+	#Upper {
+		margin: 4px 4px 2px 4px;
+	}
+	#Lower {
+		margin: 0px 4px 0px 4px;
+	}
+	#Note {
+		display: none;
+	}
+	#Generate {
+		margin: 0px;
+		padding: 5px 10px;
+		font-size: smaller;
+		position: absolute;
+		top: 4px;
+		right: 8px;
+	}
+	#Create {
+		font-size: small;
+		padding: 4px 14px;
+	}
+	#Home {
+		width: 90%;
+		margin: 110px 5% 0px 5%;
+	}
+	#Home h1 {
+		font-size: 36px;
+	}
+	#Home p {
+		font-size: 15px;
+		padding: 0px 2px;
+	}
+	#Donate {
+		font-size: xx-small;
+	}
+}
